@@ -1,0 +1,44 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+
+}
+.heading{
+    margin-top: 70px;
+    color: white;
+}
+#title{
+    margin-bottom: 20px;
+}
+#Discription{
+    padding: 30px 0 100px 10px;
+}
+.maincard{
+    margin: 10px 10px 10px 10px;
+    /* padding: 0 10px ; */
+    /* border: 1px solid white; */
+    background-color:rgba(0, 0, 0, 0.664);
+    color: cornsilk;
+}
+.maincard:hover{
+    border: 1px solid black;
+}
+.btn{
+    padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .maincard{
+        margin-bottom: 15px;
+    }
+    .heading {
+        font-size: 30px;
+    }
+  }
